@@ -1,0 +1,262 @@
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+
+
+
+
+#txt
+{
+	 top:650px;
+	left: 900px;
+	color: #3db52b;
+	position: fixed;
+	font-size: 20px;
+	font-family: 'DotGothic16', sans-serif;
+}
+
+  
+body{
+	 margin: 0;
+	 padding: 0;
+	 height: 200vh;
+}
+
+
+
+
+
+
+#particles-js
+{
+	height: 100%;
+	background: #262626;
+}
+.logo
+{
+	
+	width: 150px;
+	height: 150px;
+	position:fixed;
+	top: 10%;
+	left: 45%;
+
+}
+
+.text
+{
+	
+	color: #eddada;
+	position:fixed;
+margin-top:-100px;
+margin-left:-120px;
+top:55%;
+left:50%;
+
+}
+
+.text h1{
+     width: 0ch;
+	font-size: 250%;
+	overflow: hidden;
+	white-space: nowrap;
+	animation:text 8s,steps(6) infinite alternate ;
+font-family: 'DotGothic16', sans-serif;
+border-right: 3px solid white;
+}
+@keyframes text
+{
+	0%{
+		width: 0ch;
+	}
+	50%
+	{
+		width: 6.5ch;
+
+	}
+}
+
+
+.login { 
+	position: fixed;
+	top: 400px;
+	left: 600px;
+	width:300px;
+	height:300px;
+}
+
+
+
+
+input { 
+	width: 100%; 
+	margin-bottom: 30px; 
+	
+	border:solid;
+	outline: none;
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #b52b2b;
+	background: transparent;
+	
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 10px;
+	box-shadow: inset 0 -5px 45px rgba(145, 138, 138,10);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+
+
+.btn-L
+{
+	 position: fixed;
+     top: 500px;
+	left: 600px;
+
+	width:150px;
+	height: 4%;
+	border: none;
+	color: black;
+	background-color: rgb(255,0,68);
+	border-radius: 4px;
+	box-shadow: inset 0 0 0 0 #ffffff;
+	transition: ease-out 0.2s;
+	font-size: 20px;
+	outline: none;
+
+
+
+}
+
+
+
+
+.btn-L:hover{
+	box-shadow: inset 75px 0 0 0 #ffffff;
+	cursor: pointer;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 781px) {
+.btn-L{
+
+  width: 60%;
+   
+font-size: 15px;
+     top:600px;
+	left:100px;
+
+}*/
+
+
+
+
+
+@media (max-width: 481px) {
+.btn-L{
+
+  width: 20%;
+   
+font-size: 15px;
+     top:600px;
+	left:100px;
+
+}
+
+
+@media (max-width: 481px) {
+.logo{
+left: 30%
+
+}
+
+
+
+
+}
+
+
+@media (max-width: 481px) {
+.login 
+{
+
+left: 100px;
+
+width:200px;	
+
+top: 500px;
+}
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 481px) /*who am i*/
+{
+.text h1
+{
+	position: fixed;
+	left: 120px;
+font-size: 2.5rem;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 481px) /*hint text */
+{
+#txt
+{
+	 top:650px;
+	left: 100px;
+	color: #3db52b;
+	position: fixed;
+	font-size: 15px;
+	font-family: 'DotGothic16', sans-serif;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+
+@media (min-width: 100%) and (max-width: 100%) {
+
+  
+body{
+	 margin: 0;
+	 padding: 0;
+	 height: 100%;
+}
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+
+#particles-js
+{
+	height: 200vw;
+	background: #262626;
+	
+}
+
+
+
+.logo
+{
+	width: 9vw;/*290 x 315*/
+
+	position:fixed;
+	top: 2%;
+	left: 44.5%
+
+}
+
+.text
+{
+	
+	color: #eddada;
+	position:absolute;
+	margin-top:20%;
+
+	top: -5%;
+	left:34%;
+
+}
+.text h1{
+     width: 0ch;
+	 position:fixed;
+	font-size: 1vw;
+	overflow: hidden;
+	white-space: nowrap;
+	animation:text 5s ,steps(6) infinite alternate ;
+font-family: 'DotGothic16', sans-serif;
+border-right: 3px solid white;
+}
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
+  }
+@keyframes text
+{
+	0%{
+		width: 0ch;
+	}
+	50%
+	{
+		width: 6.5ch;
+
+	}
+}
+
+
+
+
+

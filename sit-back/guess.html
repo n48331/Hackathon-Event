@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Who am I</title>
+		<link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="assets/css/guess.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+  
+
+</head>
+<body>
+		<!-- Header -->
+			<header id="header">
+				<div><img src="images/logo.png" class="logo" width="8%">
+					
+				</div>
+
+
+
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+
+				<!-- One -->
+					<section id="one" class="wrapper style1">
+
+						<!-- here also theres nothing...its a simple game just relax and play -->
+						<header class="special">
+							<h2>WIN OR LEARN</h2>
+							<p>keep calm and play</p>
+						</header>
+            <div id='msgBox'>Guess the word!</div>
+            <div id="smallMsg">Green = correct letter, Yellow = wrong place</div>
+            <div>
+              <div id="row1">
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+              </div>
+              <div id="row2">
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+              </div>
+              <div id="row3">
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+              </div>
+              <div id="row4">
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+              </div>
+              <div id="row5">
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+                <div class="square default"></div>
+              </div>
+            </div>
+            <input id="guess" onkeypress="submitguess(this)" placeholder='Type your guess!'>
+            <button id="button" class="invisible" onClick="playagain()">Play Again?</button>
+					</section>
+          <script  src="assets/js/guess.js"></script>
+				
+				
+			<script type="text/javascript" src="assets/js/particles.js"></script>
+	
+			<script type="text/javascript" src="assets/js/app.js"></script>
+
+
+</body>
+</html>

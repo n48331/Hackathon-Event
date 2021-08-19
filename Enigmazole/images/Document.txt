@@ -1,0 +1,13 @@
+
+<<<<---JUST TO YOUR KNOWLEDGE THE PROCESS OF HIDING TEXT WITHIN AN IMAGE IS CALLED STEGANOGRAPHY--->>>>
+
+who = input("Enter the Secret Key : ")
+s1 = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm 0123456789./:-"
+s2 = s1[::-1]
+a = {}
+for i in range(len(s2)):
+    a.update({s1[i]:s2[i]})
+c = []
+for x in who:
+    c.append(a[x])
+print("".join(c))
